@@ -111,6 +111,11 @@ Installing pool on different Linux distributives is different because it depends
 sudo apt-get install git build-essential redis-server libboost1.55-all-dev nodejs-dev nodejs-legacy npm cmake libssl-dev
 ```
 
+####Easy install on Ubuntu 14 LTS
+
+Installing pool on different Linux distributives is different because it depends on system default components and versions. For now the easiest way to install pool is to use Ubuntu 14 LTS. Thus, all you had to do in order to prepare Ubunty 14 for pool installation is to run:
+
+```sudo apt-get install git redis-server libboost1.55-all-dev nodejs-dev nodejs-legacy npm cmake libssl-dev```
 
 #### 1) Downloading & Installing
 
